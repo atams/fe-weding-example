@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "galvitra";
+  src: url("/font/GalvitraRegular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "sigmora";
+  src: url("/font/Sigmora.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --color-primary-green: #00825a;
+  --color-primary-orange: #bd5b21;
+  --color-secondary: #aa7156;
+  --color-secondary-bold: #ffe8d3;
+  --color-light: #734128;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --font-header: galvitra, serif;
+  --font-paragraph: sigmora, serif;
+}
+
+.hero-up-banner {
+  background-color: var(--color-primary-green);
+}
+.hero-up-banner h1 {
+  color: var(--color-white);
+  font-family: var(--font-header);
+}
+
+.about-section .title h2 {
+  font-family: var(--font-header);
+  color: var(--color-primary-green);
+}
+.about-section p {
+  font-family: var(--font-paragraph);
+  color: var(--color-light);
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.Menu-section .title h2 {
+  font-family: var(--font-header);
+  color: var(--color-primary-green);
+}
+.Menu-section p {
+  font-family: var(--font-paragraph);
+  color: var(--color-light);
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}
+
+.promo-section h1 {
+  font-family: var(--font-header);
+  color: var(--color-primary-green);
+}
+.promo-section h2 {
+  color: var(--color-primary-orange);
+}
+
+.footer-section {
+  background-color: var(--color-primary-green);
+  color: var(--color-white);
+  font-family: var(--font-paragraph);
+}
+.footer-section h2 {
+  font-family: var(--font-header);
+}/*# sourceMappingURL=global.css.map */

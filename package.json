@@ -1,5 +1,5 @@
 {
-	"name": "fe-core-atams-svelte-skeletons",
+	"name": "fe-coffee-demo-atams",
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
@@ -23,7 +23,8 @@
 	"dependencies": {
 		"@tailwindcss/vite": "^4.1.14",
 		"gsap": "^3.13.0",
-		"lenis": "^1.3.11",
+		"lenis": "^1.3.8",
+		"lucide-svelte": "^0.545.0",
 		"tailwindcss": "^4.1.14"
 	}
 }
