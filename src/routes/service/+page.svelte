@@ -1,9 +1,7 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { gsap } from 'gsap';
-    import AboutHome from '../components/home/AboutHome.svelte';
-    import ServiceHome from '../components/home/ServiceHome.svelte';
-    import AchivmentHome from '../components/home/AchivmentHome.svelte';
+    import CoreService from '../../components/service/CoreService.svelte';
 
     let container: HTMLDivElement;
 
@@ -99,19 +97,16 @@
     });
 </script>
 
-<div class="hero-section px-10 bg-[url('/img/bg-heros-weding.jpg')] bg-cover">
+<div class="hero-section px-10 bg-[url('/img/bg-about.jpg')] bg-cover">
     <div class="absolute inset-0 bg-black/30"></div>
 
     <div bind:this={container} class="animation-container"></div>
 
-    <div class="min-h-screen flex items-end justify-center text-center align-bottom text-white pb-20">
-        <h1 class="text-9xl">Crafting Timeless Moments of Love</h1>
+    <div class="min-h-screen flex items-center justify-center text-center align-bottom text-white pb-20">
+        <h1 class="text-9xl">Service</h1>
     </div>
 </div>
-
-<AboutHome />
-<ServiceHome />
-<AchivmentHome />
+<CoreService />
 
 <style>
     .hero-section {
@@ -134,7 +129,6 @@
         text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
 
-    /* Kunang-kunang */
     :global(.firefly) {
         position: absolute;
         width: 4px;
@@ -145,7 +139,6 @@
         pointer-events: none;
     }
 
-    /* Partikel cahaya */
     :global(.light-particle) {
         position: absolute;
         width: 2px;
