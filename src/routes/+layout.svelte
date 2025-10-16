@@ -2,8 +2,8 @@
 	import favicon from "$lib/assets/favicon.svg";
 	import "../app.css";
 	import "../global.css";
-	import Navbar from "../components/Navbar.svelte";
-	import Footer from "../components/Footer.svelte";
+	import Navbar from "$lib/components/Navbar.svelte";
+	import Footer from "$lib/components/Footer.svelte";
 	import Lenis from "lenis";
 	import "lenis/dist/lenis.css";
 	import { onMount } from "svelte";

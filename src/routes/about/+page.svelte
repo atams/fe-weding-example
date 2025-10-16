@@ -1,9 +1,9 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { gsap } from 'gsap';
-    import Abouts from '../../components/about/Abouts.svelte';
-    import Expert from '../../components/about/Expert.svelte';
-    import AboutQna from '../../components/about/AboutQna.svelte';
+    import Abouts from '$lib/components/about/Abouts.svelte';
+    import Expert from '$lib/components/about/Expert.svelte';
+    import AboutQna from '$lib/components/about/AboutQna.svelte';
     
     let container: HTMLDivElement;
 

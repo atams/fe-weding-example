@@ -1,9 +1,9 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { gsap } from 'gsap';
-    import AboutHome from '../components/home/AboutHome.svelte';
-    import ServiceHome from '../components/home/ServiceHome.svelte';
-    import AchivmentHome from '../components/home/AchivmentHome.svelte';
+    import AboutHome from '$lib/components/home/AboutHome.svelte';
+    import ServiceHome from '$lib/components/home/ServiceHome.svelte';
+    import AchivmentHome from '$lib/components/home/AchivmentHome.svelte';
 
     let container: HTMLDivElement;
 

@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { gsap } from 'gsap';
-    import CoreService from '../../components/service/CoreService.svelte';
+    import CoreService from '$lib/components/service/CoreService.svelte';
 
     let container: HTMLDivElement;
 

@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from 'svelte';
     import { gsap } from 'gsap';
-    import CoreSangjit from '../../components/sangjit/CoreSangjit.svelte';
+    import CoreSangjit from '$lib/components/sangjit/CoreSangjit.svelte';
     let container: HTMLDivElement;
 
     function createFirefly(): void {
